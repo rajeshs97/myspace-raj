@@ -1,0 +1,214 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Rajesh
+Notes:	Gamer World
+
+*/
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.nav navbar-nav pull-right{
+align-self: right;
+}
+#third-image, #first-image, #second-image{
+	height: 197px;
+}
+#fourth-image{
+    height: 150px;
+    width: 217px;
+}
+.jumbotron{
+	text-align: center;
+	text-decoration: inherit;
+	font-style: bold;
+}
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.confetti_logo{
+
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+/*.navbar{
+	background: black;
+}*/
+.page-scroll{
+	font-size: 1.5em;
+	font-weight: 400;
+	font-variant: small-caps;
+}
+
+#logo {
+    vertical-align: middle;
+    margin-top: 3.5px;
+    margin-bottom: 7.5px;
+    height: 45px;
+}
+
+nav li{
+ 	display: inline;
+}
+
+
+.navbar-inverse .navbar-toggle{
+	background-color: orange;
+	border-color: orange;
+}
+.navbar-brand{
+ 	padding: 0;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+/*.item{
+	height: 750px;
+}*/
+
+.carousel-inner img{
+	min-width: 100%;
+	height: inherit;
+}
+
+.first-slide {
+	height: inherit !important;
+}
+
+.second-slide{
+	height: inherit !important;
+}
+
+.third-slide{
+	height: inherit !important;
+}
+
+.carousel-inner{
+	height: 100%;empty-cells:
+	width: 100%;
+	position: relative;
+}
+.alert{
+	display: none;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well .page-header{
+	margin-top: 0;
+}
+
+.marketing{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.content_title{
+	text-align: center;
+	margin: 25px 0px;
+}
+.sociallinks_icons li{
+  display: inline;
+  margin-left: 0;f
+  margin-right: 5px;
+}
+.sociallinks_icons_img:hover{
+  -webkit-filter: sepia(100%);
+	filter: sepia(100%);
+}
+
+.sociallinks_icons_img{
+  border-radius: 100px;
+   transition: .3s ease-in-out;
+  height: 40px;
+  width: 40px;
+}
+
+.gamer img{
+	width: 100%;
+}
+
+.gamer h2{
+	text-align: center;
+}
+
+.gamer p{
+	text-align: center;
+}
+
+.featurette-heading{
+	text-align: center;
+}
+
+#lead{
+	text-align: left;
+}
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+#footer-links{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: left;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+	#myCarousel .item { height: 310px; }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 500px; }
+
+
+	.carousel-caption p {
+		font-size: 16px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 22px;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 800px; }
+
+
+}

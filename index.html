@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <!-- Website Title & Description for Search Engine purposes -->
+  <title>GAMER WORLD</title>
+  <meta name="description" content="GAMER WORLD">
+
+  <!-- Mobile viewport optimized -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="includes/css/styles.css">
+
+  <!-- Include Modernizr Javascript -->
+  <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <div class="container-fluid" id="main">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="/"><img src="images/logo.jpg" alt="tara logo" id="logo"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li class="">
+              <a  class="page-scroll" href="">HOME</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#">PORTFOLIO</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#">ABOUT</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#">DOWNLOAD</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#c">CONTACT</a>
+            </li>
+          </ul>
+          <form class="navbar-form pull-left">
+            <input type="text" class="form-control" placeholder="Search for games..." id="searchInput">
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form><!-- end navbar-form -->
+
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+                </li>
+
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+                </li>
+
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+                </li>
+
+                <li class="divider"></li>
+
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+                </li>
+              </ul>
+            </li>
+          </ul><!-- end nav pull-right -->
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-->
+    </nav>
+
+    <!-- Carousel
+    ================================================== -->
+    <div class="row">
+      <div class="col-12">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active" id="slide1">
+              <img class="first-slide" src="images/carousel1.jpg" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 class="hidden-xs">GAMER WORLD</h1>
+                  <p>I dont need to "get a life".. I'm a GAMER I have lots of lives</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="second-slide" src="images/carousel2.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 class="hidden-xs">GAMER WORLD</h1>
+                  <p>I dont need to "get a life".. I'm a GAMER I have lots of lives</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="third-slide" src="images/carousel3.jpg" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 class="hidden-xs">GAMER WORLD</h1>
+                  <p>I dont need to "get a life".. I'm a GAMER I have lots of lives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+    <div class="jumbotron">
+     <div class="container">
+      <h1>GAMER WORLD</h1>
+     </div>
+    </div> <!-- jumbotron ends-->
+
+
+    <hr class="featurette-divider">
+
+
+
+    <div class="container marketing">
+
+      <div class="row" id="bigCallout">
+        <div class="col-12">
+          <div class="alert alert-success alert-dismissable alert-block fade in" id="successAlert">
+            <button type="button" class="close" data-hide="alert">&times;</button>
+
+            <h4>Success Gamer you are!<span class="glyphicon glyphicon-heart"></h4>
+              <p>This is for gaming.. I just made this element display by using jQuery. Click the "x" to close.</p>
+            </div><!-- end alert -->
+            <!-- Visible only on small devices -->
+            <div class="well well-small visible-sm">
+              <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+            </div><!-- end well-small -->
+
+            <div class="well">
+              <div class="page-header">
+                <h1>Games</h1><small>Get ready to play</small>
+              </div><!-- end page-header -->
+
+              <p class="lead">You are in Gamer world... this is an alert</p>
+
+              <button type="button" class="btn btn-large btn-primary" id="alertMe">Game Alert</button>
+              <a href="" class="btn btn-large btn-link">For more games...</a>
+            </div><!-- end well -->
+          </div><!--end col-12-->
+        </div><!--end bigcallout-->
+
+        <!-- Three columns of text below the carousel -->
+        <section id="gamer container">
+          <h2 class="content_title">
+            <marquee><em>The Gamer world waiting for you....!</em></marquee>
+          </h2>
+        </section>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 gamer">
+            <img class="img-responsive" src="images/game1.jpg" alt="GOW" id="first-image">
+            <h2>GOD OF WAR</h2>
+            <p>God of War is an action-adventure video game series loosely based on Greek mythology, originally created by David Jaffe at Sony's Santa Monica Studio. Debuting in 2005, the series has become a flagship title for the PlayStation brand, consisting of seven games across multiple platforms. consisting of seven games across multiple platforms</p>
+            <p id="view_button"><a class="btn btn-info" href="#" role="button">View More &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 gamer" >
+            <img class="img-responsive" src="images/game2.jpg" alt="Tomb raider" id="second-image">
+            <h2>TOMB RAIDER</h2>
+            <p>Tomb Raider is an action-adventure video game developed by Crystal Dynamics and published by Square Enix. Tomb Raider is the tenth title in the Tomb Raider franchise, and operates as a reboot that emphasises the reconstructed origins of Lara Croft.Tomb Raider is an action-adventure video game developed by Crystal Dynamis and Square Enix</p>
+            <p id="view_button"><a class="btn btn-info" href="#" role="button">View More &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 gamer">
+            <img class="img-responsive" src="images/game3.jpg" alt="NFS" id="third-image">
+            <h2>Need For Speed</h2>
+            <p>Need for Speed, also known by its initials NFS, is a racing video game franchise published by Electronic Arts and developed by several studios including EA Black Box, Criterion Games and Ghost Games.Need for Speed, also known by its initials NFS, is a racing video game franchise published by Electronic Arts and developed by several studios including EA Black Box</p>
+            <p id="view_button"><a class="btn btn-info" href="#" role="button">View More &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <div class="row" id="moreInfo">
+          <div class="col-sm-6">
+            <h3>Games Content</h3>
+            <div class="tabbable">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">Gamer World</a></li>
+                <li><a href="#tab2" data-toggle="tab">Registration to access games</a></li> 
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tab1">
+                  <h4><span class="glyphicon glyphicon-map-marker"></span> Gamer Location <small>More games you can find</small></h4>
+
+                  <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.66007678024!2d77.35073445584115!3d12.954517010195083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka+560001!5e0!3m2!1sen!2sin!4v1470222631197"></iframe>
+
+                  <p>God of War is an action-adventure video game series loosely based on Greek mythology, originally created by David Jaffe at Sony's Santa Monica Studio. Debuting in 2005, the series has become a flagship title for the PlayStation brand, consisting of seven games across multiple platforms. consisting of seven games across multiple platforms</p>
+
+                  <p>Need for Speed, also known by its initials NFS, is a racing video game franchise published by Electronic Arts and developed by several studios including EA Black Box, Criterion Games and Ghost Games.Need for Speed, also known by its initials NFS, is a racing video game franchise published by Electronic Arts and developed by several studios including EA Black Box</p>
+                </div><!-- end tab-pane -->
+
+                <div class="tab-pane" id="tab2">
+                  <h4>Tekken <small>Version 6.1</small></h4>
+
+                  <img src="images/register.jpg" class="thumbnail pull-left" alt="Placeholder image" id="fourth-image">
+
+                  <p>God of War is an action-adventure video game series loosely based on Greek mythology, originally created by David Jaffe at Sony's Santa Monica Studio. Debuting in 2005, the series has become a flagship title for the PlayStation brand, consisting of seven games across multiple platforms. consisting of seven games across multiple platforms</p>
+
+                  <p>God of War is an action-adventure video game series loosely based on Greek mythology, originally created by David Jaffe at Sony's Santa Monica Studio. Debuting in 2005, the series has become a flagship title for the PlayStation brand, consisting of seven games across multiple platforms. consisting of seven games across multiple platforms</p>
+
+                  <hr>
+
+                  <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for Register as Gamer</a>
+
+                  <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header"> 
+                          <button class="close" data-dismiss="modal">&times;</button>
+
+                          <h4 class="modal-title">Gamer Modal</h4>
+                        </div><!-- end modal-header -->
+                        <div class="modal-body">
+                          <h4>Welcome to the user Registration</h4>
+
+                          <p>Here provide your details to register in Gamer world.</p>
+
+                          <h4>Popover to the gamer</h4>
+                          <a href="" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you are a good gamer.">Click to remind</a>
+
+                          <h4>Gamer Tools</h4>
+                          <a href="" data-original-title="User tooltip" rel="tooltip">You</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+
+                          <hr>
+
+                          <p><small class="text-muted">Its for registration....</small></p>
+
+                          <form class="form-horizontal">
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputName">Name</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputName" placeholder="Name" type="text">
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputName">Password</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputPassword" placeholder="Password" type="password">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputPassword">Confirm Password</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputPassword" placeholder="Re-enter Password" type="password">
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <div class="col-lg-10">
+                                <button class="btn btn-success pull-right" type="submit">Register</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div><!-- end modal-body -->
+
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal" type="button">SignIn</button> <button class="btn btn-primary" type="button">Cancel</button>
+                        </div><!-- end modal-footer -->
+                      </div><!-- end modal-content -->
+                    </div><!-- end modal-dialog -->
+                  </div><!-- end myModal -->
+
+                </div><!-- end tab-pane -->
+              </div><!-- end tab-content -->
+            </div><!-- end tabbable -->
+          </div><!-- end col-sm-6 -->
+
+          <div class="col-sm-6">
+            <h3>Games Description</h3>
+            <p> A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device such as a TV screen or computer monitor. The word video in video game traditionally referred to a raster display device, but in the 2000s, it implies any type of display device that can produce two- or three-dimensional images. Video games are sometimes believed to be a form of art, but this designation is controversial. </p>
+
+            <h4>Diffrent Group of platforms</h4>
+
+            <div class="list-group">
+              <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Play station</h4>
+                <p class="list-group-item-text">The play station gfames provides you the best experience in gaming.. Now you can enjoy with PS-5</p>
+              </a>
+              <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Mobile Games</h4>
+                <p class="list-group-item-text">There are lots of mobile games to the diffrent versions like windows, android and ios..</p>
+              </a>
+              <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">PC Games</h4>
+                <p class="list-group-item-text">the real 3D games like crick11 by EA, Vice City and Nascars</p>
+              </a>
+            </div><!-- list-group -->
+
+            <h5>More Popular games:</h5>
+            <p>Most Popular Games - Android Apps on <a href="https://play.google.com/store">Google Play</a>...Enjoy millions of the latest Android apps, games, music, movies, TV, books, magazines & more. Anytime ... Most Popular Games ... Clean Master Games. Free.</p>
+          </div><!-- end col-sm-6 -->
+        </div><!-- end moreInfo -->
+
+        <!-- START THE FEATURETTES -->
+
+
+        <hr class="featurette-divider">
+        <!-- /END THE FEATURETTES -->
+
+      </div><!--end container-->
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h6>Copyright &copy; 2016 Gamer World</h6>
+            </div><!-- end col-sm-2 -->
+
+
+            <div class="col-sm-4">
+              <h6>Follow Us</h6>
+            <ul class="sociallinks_icons">
+              <li>
+                  <img src="images/facebook.png" alt="facebook" class="sociallinks_icons_img">
+              </li>
+              <li>
+                <img src="images/googleplus.png" alt="google plus" class="sociallinks_icons_img">
+              </li>
+              <li>
+                <img src="images/twitter.png" alt="twitter" class="sociallinks_icons_img">
+              </li>
+              <li>
+                <img src="images/linkedin.png" alt="linked in" class="sociallinks_icons_img">
+              </li>
+          </ul>
+            </div><!-- end col-sm-2 -->
+
+            <div class="col-sm-4" id="footer-links">
+              <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Rajesh</h6>
+            </div><!-- end col-sm-2 -->
+          </div><!-- end row -->
+        </div><!-- end container -->
+      </footer>
+
+
+
+      <!-- Trying to access the online version of jQuery-->
+      <script src="http://code.jquery.com/jquery.js"></script>
+
+      <!-- Bootstrap JS -->
+      <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+      <!-- Custom JS -->
+      <script src="includes/js/script.js"></script>
+
+    </body>
+    </html>
